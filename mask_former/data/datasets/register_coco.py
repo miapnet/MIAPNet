@@ -111,7 +111,7 @@ def register_all_coco14(root):
     base_meta = _get_coco14_meta(BASE_CLASS_NAMES)
 
     novel_meta = _get_coco14_meta(NOVEL_CLASS_NAMES)
-    img_dir_root = "./datasets/COCO14"
+    img_dir_root = "./datasets/coco"
 
     for name, image_dirname, sem_seg_dirname in [
         ("train", "JPEGImages", "coco/stuffthingmaps_detectron2/train2014"),
