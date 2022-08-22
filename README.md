@@ -47,7 +47,7 @@ After downloading the required datasets, run [`preprocess`](./preprocess/) files
 
 ## Training 
 
-To train your models, make necessary changes in the configs of your choice. The configs of ZSS and FSS are in [`preprocess`](./configs/voc/) for PASCAL VOC and in [`preprocess`](./configs/coco/) for COCO. Additional ablation experiments can be run using config files in [`preprocess`](./configs/ablations/).
+To train your models, make necessary changes in the configs of your choice. The configs of ZSS and FSS are in [`voc`](./configs/voc/) for PASCAL VOC and in [`coco`](./configs/coco/) for COCO. Additional ablation experiments can be run using config files in [`ablations`](./configs/ablations/).
 
 A generic command to run a paritcular experiment corresponding to a config is:
 
