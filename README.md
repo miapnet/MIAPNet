@@ -86,6 +86,7 @@ To train a model on a particular setting, you need to first run the learning pro
     python3 train_net.py --config-file ./configs/voc/wzss/fold0.yaml
     ```
 
+Alternatively, you may use pretrained model weights released [here](https://drive.google.com/drive/folders/1A0S7gr3zwHD_LqYqHZ-dIvcoKx4uO0Al?usp=sharing).
 
 ## Evaluation 
 
