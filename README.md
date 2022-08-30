@@ -125,3 +125,7 @@ During evaluation, set the `DATASETS.VIS_MULTIPLIER` entry to 1 in the correspon
 ### WFSS
 
 During evaluation, set the `DATASETS.VIS_MULTIPLIER` entry to 255 for 1-way and 127 for 2-way in the corresponding configs. Segmentation maps for unseen categories will be generated in `OUTPUT_DIR/evaluation/pred_vis` directory. For 1-way, these will be binary maps and for 2-way these will have 0, 127 and 254 as the three distinct values.
+
+## Acknowledgement
+
+We thank the authors of [`Maskformer`](https://github.com/facebookresearch/MaskFormer), [`CLIP`](https://github.com/openai/CLIP) and [`Simple Baseline`](https://github.com/MendelXu/zsseg.baseline) for their awesome works. This repo benefits greatly from them.
